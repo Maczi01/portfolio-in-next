@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fac97a-c825-4fba-9d23-094a0d8e8f52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/letter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/uk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Footer/FooterStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Hero/Hero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Hero/HeroStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Layout/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Layout/LayoutStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Navbar/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Navbar/NavbarStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Sidebar/Sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Sidebar/SidebarStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/GlobalComponents/ButtonIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/default.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,15 +26,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1w6DuRHg13oZ4BxAHdHrM1IDuLS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -28,6 +51,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\assets" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -51,7 +79,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627770366108</updated>
-      <workItem from="1627770367607" duration="2661000" />
+      <workItem from="1627770367607" duration="4642000" />
+      <workItem from="1627825275514" duration="1441000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1627821870321</created>
@@ -67,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627822147385</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added react icons package">
+      <created>1627822777906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627822777906</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,7 +114,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -87,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Styled-componentes installed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Styled-componentes installed" />
+    <MESSAGE value="Added react icons package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added react icons package" />
   </component>
 </project>
