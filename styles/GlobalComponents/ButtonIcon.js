@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ButtonIcon = styled.button`
+export const ButtonIcon = styled.a`
   display: block;
   width: 67px;
   height: 67px;

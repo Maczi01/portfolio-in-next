@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {Wrapper} from "./NavbarStyles";
+import {StyledFlag, Wrapper} from "./NavbarStyles";
 import React from "react";
 import pl from '../../assets/pl.svg'
 import uk from '../../assets/uk.svg'
