@@ -7,6 +7,8 @@ export const Wrapper = styled.nav`
   height: 70px;
   margin: 0 auto;
   padding: 0;
+  width: 100vw;
+  background-color: ${({theme}) => theme.colors.background2};
 `;
 export const StyledFlag = styled.img`
     justify-content: center;

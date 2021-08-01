@@ -15,8 +15,8 @@ export const Content = styled.div`
      max-height:100vh;       
      display: flex;
      flex-direction: column;
-     margin-left: 70px ;
-     margin-top: 70px;
+     //margin-left: 70px ;
+     //margin-top: 70px;
      padding:0;
 `
 
