@@ -20,6 +20,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627770366108</updated>
-      <workItem from="1627770367607" duration="2016000" />
+      <workItem from="1627770367607" duration="2661000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1627821870321</created>
@@ -59,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627821870321</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Styled-componentes installed">
+      <created>1627822147385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627822147385</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Styled-componentes installed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styled-componentes installed" />
   </component>
 </project>
