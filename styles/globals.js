@@ -1,7 +1,9 @@
-import { createGlobalStyle } from 'styled-components';
-import { normalize } from 'styled-normalize';
+import {createGlobalStyle} from 'styled-components';
+import {normalize} from 'styled-normalize';
 
 const GlobalStyles = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
   ${normalize};
   * {
     box-sizing: border-box;
@@ -13,7 +15,8 @@ const GlobalStyles = createGlobalStyle`
     scroll-behavior: smooth;
   }
   body {
-    font-family: ${props => props.theme.fonts.main};
+    font-family: 'Nunito', sans-serif;
+    //font-family: ${props => props.theme.fonts.main};
     font-size: 1.6rem;
     background: ${props => props.theme.colors.background1};
     color: ${props => props.theme.colors.primary1};

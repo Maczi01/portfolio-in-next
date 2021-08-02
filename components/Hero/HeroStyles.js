@@ -1,32 +1,30 @@
 import styled from "styled-components";
 
-const HeroTitle = styled.div`
-    justify-content: flex-start;
-    font-size: 5rem; 
-    display: flex;
-    padding: 10px;
-    margin: 20px;
-    font-weight: bold;
-    // color: ${({theme}) => theme.colors.gray};
+export const HeroWrapper = styled.div`
+     height: 100%;
+     //width: 89vw; 
+     min-height:100vh;       
+     display: flex;
+     flex-direction: column;
+     margin: 0 auto;
+     align-items: center;
+     color: ${({theme}) => theme.colors.text};
 `;
 
-
-const HeroSubtitle = styled.div`
+export const HeroLinksList = styled.div`
     justify-content: flex-start;
     font-size: 3rem;
     display: flex;
     padding: 10px;
     margin: 20px;
     font-weight: bold;
-    // color: ${({theme}) => theme.colors.yellow};
+    color: ${({theme}) => theme.colors.text};
 `;
 
-const HeroLinks = styled.div`
+export const HeroLink = styled.a`
     justify-content: flex-start;
     font-size: 3rem;
     display: flex;
-    padding: 10px;
-    margin: 20px;
     font-weight: bold;
-    // color: ${({theme}) => theme.colors.yellow};
+    color: ${({theme}) => theme.colors.text};
 `;

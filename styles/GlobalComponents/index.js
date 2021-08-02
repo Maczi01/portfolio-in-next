@@ -51,3 +51,25 @@ export const SectionDivider = styled.div`
     'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
     margin: ${(props) => props.divider ? "4rem 0" : ""};
 `
+
+export const Title = styled.div`
+    justify-content: flex-start;
+    font-size: 5rem; 
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    font-weight: bold;
+    // color: ${({theme}) => theme.colors.text};
+`;
+
+
+export const Subtitle = styled.div`
+    justify-content: flex-start;
+    font-size: 3rem;
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    font-weight: bold;
+    // color: ${({theme}) => theme.colors.yellow};
+`;
+
