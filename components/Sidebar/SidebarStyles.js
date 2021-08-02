@@ -6,14 +6,14 @@ export const Wrapper = styled.nav`
       left: 0;
       top: 0;
       padding: 25px 0;
-      width: 20vw;
+      width: 100px;
       height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
-      border-radius: 50px;
-           z-index: 99;
+      z-index: 99;
+      background-color: ${({theme}) => theme.colors.background2};
 `;
 
 export const StyledLogoLink = styled.a`
@@ -22,7 +22,7 @@ export const StyledLogoLink = styled.a`
     height: 67px;
     background-repeat: no-repeat;
     background-image: url(${letter});
-
+    background-color: ${({theme}) => theme.colors.background1};
     background-position: 50% 50%;
     background-size: 80%;
     border: none;

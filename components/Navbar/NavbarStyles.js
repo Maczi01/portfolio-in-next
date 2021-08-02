@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image from 'next/image'
 
 export const Wrapper = styled.nav`
   display: flex;
@@ -10,7 +11,7 @@ export const Wrapper = styled.nav`
   width: 100vw;
   background-color: ${({theme}) => theme.colors.background2};
 `;
-export const StyledFlag = styled.img`
+export const StyledFlag = styled(Image)`
     justify-content: center;
     width: 40px;
     height: 40px;

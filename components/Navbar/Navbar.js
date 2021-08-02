@@ -1,12 +1,17 @@
-import styled from "styled-components";
 import {StyledFlag, Wrapper} from "./NavbarStyles";
 import React from "react";
-import pl from '../../assets/pl.svg'
-import uk from '../../assets/uk.svg'
+import pl from '../../public/pl.svg'
+import uk from '../../public/uk.svg'
 
 export const Navbar = () => (
     <Wrapper>
-        <StyledFlag src={uk}/>
-        <StyledFlag src={pl}/>
+        <StyledFlag src={uk}
+                    width={40}
+                    height={40}
+        />
+        <StyledFlag src={pl}
+                    width={40}
+                    height={40}
+        />
     </Wrapper>
 );
