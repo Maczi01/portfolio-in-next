@@ -1,8 +1,8 @@
-import React from 'react';
+import styled from "styled-components";
 import {Section, Subtitle, Title} from "../../styles/GlobalComponents";
-import {HeroLink, HeroLinksList, HeroWrapper} from "./HeroStyles";
+import {HeroLink, HeroLinksList, HeroWrapper} from "../Hero/HeroStyles";
 
-const Hero = () => (
+const Projects = () => (
     <Section>
         <HeroWrapper>
             <Title>
@@ -20,20 +20,4 @@ const Hero = () => (
     </Section>
 );
 
-export default Hero;
-{/*<LeftSection>*/
-}
-{/*    <SectionTitle>*/
-}
-{/*        Hello*/
-}
-{/*    </SectionTitle>*/
-}
-{/*    <SectionText>*/
-}
-{/*        Lorem ipsum Lorem ipsum Lorem ipsum*/
-}
-{/*    </SectionText>*/
-}
-{/*</LeftSection>*/
-}
+export default Projects;
