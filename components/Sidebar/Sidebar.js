@@ -6,7 +6,6 @@ import githubico from "/assets/githubico.svg"
 
 export const Sidebar = () => (
     <Wrapper>
-        <StyledLogoLink to="/"/>
         <StyledLinksList>
             <li>
                 <ButtonIcon to="/notes" icon={githubico} activeclass="active"/>
