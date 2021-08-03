@@ -9,11 +9,11 @@ export default function Home() {
     return (
         <>
             <Layout>
-                <ReactPageScroller>
+                {/*<ReactPageScroller>*/}
                     <Hero/>
                     <About/>
                     <Projects/>
-                </ReactPageScroller>
+                {/*</ReactPageScroller>*/}
             </Layout>
         </>
     )

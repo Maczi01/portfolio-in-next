@@ -2,16 +2,18 @@ import styled from "styled-components";
 import {Section, SectionDivider, SectionTitle, Subtitle, Title} from "../../styles/GlobalComponents";
 import {HeroLink, HeroLinksList, HeroWrapper} from "../Hero/HeroStyles";
 import {
+    BlogCard,
     CardInfo,
     ExternalLinks,
     GridContainer,
     HeaderThree,
-    Hr,
+    Hr, Img, Tag,
     TagList,
     TitleContent,
     UtilityList
 } from "./ProjectsStyles";
 import React from "react";
+import {projects} from "./constans";
 
 const Projects = () => (
     <Section nopadding id="projects">
