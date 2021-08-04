@@ -7,7 +7,7 @@ import {
     ExternalLinks,
     GridContainer,
     HeaderThree,
-    Hr, Img, Tag,
+    Hr, Img, ProjectsSection, Tag,
     TagList,
     TitleContent,
     UtilityList
@@ -16,9 +16,8 @@ import React from "react";
 import {projects} from "./constans";
 
 const Projects = () => (
-    <Section nopadding id="projects">
-        <SectionDivider />
-        <SectionTitle main>Projekty</SectionTitle>
+    <ProjectsSection nopadding id="projects">
+        <Title main>Projekty</Title>
         <GridContainer>
             {projects.map((p, i) => {
                 return (
@@ -45,7 +44,7 @@ const Projects = () => (
                 );
             })}
         </GridContainer>
-    </Section>
+    </ProjectsSection>
 );
 
 export default Projects;

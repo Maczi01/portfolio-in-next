@@ -1,5 +1,19 @@
 import styled from "styled-components";
 
+export const ProjectsSection = styled.section`
+  display: ${(props) => props.grid ? "grid" : "flex"};
+  flex-direction: ${(props) => props.row ? "row" : "column"};
+  padding: ${(props) => props.nopadding ? "0" : "32px 48px 0"} ;
+  margin: 0 auto;
+  //max-width: 1040px;
+  width: 100vh;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+  background-color: ${({theme}) => theme.colors.background} ;
+`
+
 export const Img = styled.img`
   width:100%;
   height:100%;
