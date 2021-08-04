@@ -1,18 +1,33 @@
 import styled from "styled-components";
 
 export const ProjectsSection = styled.section`
-  display: ${(props) => props.grid ? "grid" : "flex"};
-  flex-direction: ${(props) => props.row ? "row" : "column"};
-  padding: ${(props) => props.nopadding ? "0" : "32px 48px 0"} ;
-  margin: 0 auto;
-  //max-width: 1040px;
-  width: 100vh;
-  box-sizing: content-box;
-  position: relative;
-  overflow: hidden;
-  grid-template-columns: 1fr 1fr;
-  background-color: ${({theme}) => theme.colors.background} ;
+    //display: ${(props) => props.grid ? "grid" : "flex"};
+    display: flex;
+    flex-direction: ${(props) => props.row ? "row" : "column"};
+    padding: ${(props) => props.nopadding ? "0" : "32px 48px 0"} ;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1140px;
+    //width: 100vh;
+    box-sizing: content-box;
+    position: relative;
+    overflow: hidden;
+    //grid-template-columns: 1fr 1fr 1fr;
+    background-color: ${({theme}) => theme.colors.background} ;
 `
+
+export const GridContainer = styled.section`
+    display: grid;
+    //width: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    //grid-auto-rows: 200px;
+    //padding: 3rem;
+    //place-items: center;
+    column-gap: 2rem;
+    row-gap: 2rem;
+`
+
 
 export const Img = styled.img`
   width:100%;
@@ -21,19 +36,11 @@ export const Img = styled.img`
   overflow: hidden;
 `
 
-export const GridContainer = styled.section`
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-padding: 3rem;
-place-items: center;
-column-gap: 2rem;
-row-gap: 3rem;
-`
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
-  width: 400px;
+  //width: 400px;
 `;
 export const TitleContent = styled.div`
   text-align: center;
