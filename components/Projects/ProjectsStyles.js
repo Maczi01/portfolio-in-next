@@ -31,13 +31,15 @@ export const GridContainer = styled.section`
 
 
 export const Img = styled(Image)`
-  //width:80%;
-  //height:80%;
+  width:200px;
+  height:200px;
   //object-fit: cover;
   overflow: hidden;
 `
 
 export const BlogCard = styled.div`
+  display: flex;
+  flex-direction: column;
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
