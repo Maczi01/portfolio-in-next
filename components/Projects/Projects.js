@@ -72,32 +72,6 @@ const Projects = () => (
                     <ExternalLinks href="www.google.pl">Source</ExternalLinks>
                 </UtilityList>
             </BlogCard>
-            <BlogCard>
-                <Img src={coon}/>
-                <TitleContent>
-                    <HeaderThree title>Tytuł projektu</HeaderThree>
-                    <Hr/>
-                </TitleContent>
-                <CardInfo className="card-info">Jakiś krótki i konkretny opis</CardInfo>
-
-                <UtilityList>
-                    <ExternalLinks href="www.google.pl">Code</ExternalLinks>
-                    <ExternalLinks href="www.google.pl">Source</ExternalLinks>
-                </UtilityList>
-            </BlogCard>
-            <BlogCard>
-                <Img src={coon}/>
-                <TitleContent>
-                    <HeaderThree title>Tytuł projektu</HeaderThree>
-                    <Hr/>
-                </TitleContent>
-                <CardInfo className="card-info">Jakiś krótki i konkretny opis</CardInfo>
-
-                <UtilityList>
-                    <ExternalLinks href="www.google.pl">Code</ExternalLinks>
-                    <ExternalLinks href="www.google.pl">Source</ExternalLinks>
-                </UtilityList>
-            </BlogCard>
         </GridContainer>
     </ProjectsSection>
 );

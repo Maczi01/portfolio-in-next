@@ -8,7 +8,7 @@ export const ProjectsSection = styled.section`
     padding: ${(props) => props.nopadding ? "0" : "32px 48px 0"} ;
     justify-content: center;
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 1200px;
     //width: 100vh;
     box-sizing: content-box;
     position: relative;
@@ -20,8 +20,8 @@ export const ProjectsSection = styled.section`
 export const GridContainer = styled.section`
     display: grid;
     //width: 100vh;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 500px;
     //grid-auto-rows: 200px;
     //padding: 3rem;
     //place-items: center;
@@ -31,8 +31,10 @@ export const GridContainer = styled.section`
 
 
 export const Img = styled(Image)`
-  width:200px;
-  height:200px;
+  //width:200px;
+  //height:200px;
+  width:100%;
+  height:100%;
   //object-fit: cover;
   overflow: hidden;
 `
@@ -44,6 +46,8 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   max-width: 400px;
+  border: 2px black solid;
+  overflow: hidden;
 `;
 export const TitleContent = styled.div`
   text-align: center;
@@ -83,7 +87,6 @@ export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
   color: #e4e6e7;
-  font-style: 2rem;
   line-height: 24px;
   text-align: justify;
 `;
