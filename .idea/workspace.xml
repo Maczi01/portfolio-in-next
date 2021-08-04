@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fac97a-c825-4fba-9d23-094a0d8e8f52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/coon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Projects/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Projects/ProjectsStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Projects/ProjectsStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Projects/constans.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Projects/constans.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,12 +41,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\assets" />
+      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\components\Projects" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\public" />
-      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -175,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628104160616</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Changes in projects page - change flex to grid.">
+      <created>1628108976239</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1628108976239</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +216,7 @@
     <MESSAGE value="Added Contact component" />
     <MESSAGE value="Changed title in projects page" />
     <MESSAGE value="Changed grid and remove divider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed grid and remove divider" />
+    <MESSAGE value="Changes in projects page - change flex to grid." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in projects page - change flex to grid." />
   </component>
 </project>
