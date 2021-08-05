@@ -1,25 +1,20 @@
 import styled from "styled-components";
 import {Section, Subtitle, Title} from "../../styles/GlobalComponents";
 import {HeroLink, HeroLinksList, HeroWrapper} from "../Hero/HeroStyles";
+import ContactForm from "./ContactForm";
 
 const Hero = () => (
     <Section>
-        <HeroWrapper>
             <Title>
-                Hi! I am Mati.
+                Skontaktuj się ze mną
             </Title>
             <Subtitle>
-                Junior Fullstack Developer
+                Pytania, współpraca, oferta pracy, a może luźna pogawędka o ostatnim meczu? Pisz śmiało, odpisuje
+                na każdy email
             </Subtitle>
-            <HeroLinksList>
-                <HeroLink to="/notes"> ABOUT </HeroLink> /
-                <HeroLink to="/notes"> PROJECTS </HeroLink> /
-                <HeroLink to="/notes"> CONTACT </HeroLink>
-            </HeroLinksList>
-        </HeroWrapper>
+        <ContactForm/>
     </Section>
 );
 
 export default Hero;
 
-export default $Title$;
