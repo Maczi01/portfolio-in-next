@@ -10,7 +10,7 @@ const About = () => (
         <Subtitle>
             Mam na imię Mateusz, mieszkam w Irlandii. Studiowałem we Wrocławiu Inżynierię mechaniczną, którą ukończyłem
             z tytułem magistra. Jestem wielkim fanem programowania, w szczególności tworzenia aplikacji internetowych.
-            Moje ulubione jeżyki to Java i JavaScript. Najbardziej lubię tworzyć aplikacje z użyciem Reacta.
+            Moje ulubione języki to Java i JavaScript. Najbardziej lubię tworzyć aplikacje z użyciem Reacta.
         </Subtitle>
         <Title>Nauka</Title>
         <Subtitle>

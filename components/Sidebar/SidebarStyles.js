@@ -24,6 +24,7 @@ export const StyledLogoLink = styled.a`
     background-image: url(${letter});
     background-color: ${({theme}) => theme.colors.background1};
     background-position: 50% 50%;
+    background-color: ${({theme}) => theme.colors.background2};
     background-size: 80%;
     border: none;
     margin-top: 0;

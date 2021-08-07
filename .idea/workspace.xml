@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fac97a-c825-4fba-9d23-094a0d8e8f52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Contact/ContactForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Contact/ContactFormStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Navbar/Burger.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar/NavbarStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/NavbarStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Sidebar/SidebarStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/SidebarStyles.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
       <workItem from="1627825275514" duration="4051000" />
       <workItem from="1627846963144" duration="2712000" />
       <workItem from="1627855959865" duration="11813000" />
-      <workItem from="1628113464525" duration="4635000" />
+      <workItem from="1628113464525" duration="10246000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1627821870321</created>
@@ -206,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628114994619</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Changes in projects page, added contact page with form">
+      <created>1628196644928</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1628196644951</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +251,7 @@
     <MESSAGE value="Work on project cards" />
     <MESSAGE value="Fill projects page (random data)" />
     <MESSAGE value="First version on projects card" />
-    <option name="LAST_COMMIT_MESSAGE" value="First version on projects card" />
+    <MESSAGE value="Changes in projects page, added contact page with form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in projects page, added contact page with form" />
   </component>
 </project>
