@@ -16,21 +16,6 @@ export const Wrapper = styled.nav`
       background-color: ${({theme}) => theme.colors.background2};
 `;
 
-export const StyledLogoLink = styled.a`
-    display: block;
-    width: 67px;
-    height: 67px;
-    background-repeat: no-repeat;
-    background-image: url(${letter});
-    background-color: ${({theme}) => theme.colors.background1};
-    background-position: 50% 50%;
-    background-color: ${({theme}) => theme.colors.background2};
-    background-size: 80%;
-    border: none;
-    margin-top: 0;
-    margin-bottom: 10vh;
-`;
-
 export const StyledLinksList = styled.ul`
     margin: 0;
     padding: 0;

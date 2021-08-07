@@ -4,7 +4,7 @@ import Image from 'next/image'
 export const Wrapper = styled.nav`
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   height: 70px;
   margin: 0 auto;
   padding: 0;

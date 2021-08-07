@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fac97a-c825-4fba-9d23-094a0d8e8f52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Navbar/Burger.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar/Burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/Burger.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Navbar/NavbarStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/NavbarStyles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Sidebar/SidebarStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/SidebarStyles.js" afterDir="false" />
@@ -77,7 +76,7 @@
       <workItem from="1627825275514" duration="4051000" />
       <workItem from="1627846963144" duration="2712000" />
       <workItem from="1627855959865" duration="11813000" />
-      <workItem from="1628113464525" duration="10246000" />
+      <workItem from="1628113464525" duration="11707000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1627821870321</created>
@@ -212,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628196644951</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added burger menu button (roughly)">
+      <created>1628365345125</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1628365345126</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +258,7 @@
     <MESSAGE value="Fill projects page (random data)" />
     <MESSAGE value="First version on projects card" />
     <MESSAGE value="Changes in projects page, added contact page with form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in projects page, added contact page with form" />
+    <MESSAGE value="Added burger menu button (roughly)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added burger menu button (roughly)" />
   </component>
 </project>

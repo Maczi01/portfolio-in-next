@@ -1,26 +1,25 @@
 import styled from "styled-components";
 
 const StyledBurger = styled.button`
-  position: absolute;
-  top: 5%;
-  left: 2rem;
+  //position: absolute;
+  //top: 0;
+  //left: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 70px;
-  height: 70px;
+  width: 40px;  
+  height: 35px;
   background: transparent;
   border: none;
   cursor: pointer;
   padding: 0;
   z-index: 110;
-
   &:focus {
     outline: none;
   }
 
   div {
-    width: 70px;
+    width: 35px;
     height: 0.25rem;
     background: ${({ open }) => open ? '#0D0C1D' : '#EFFFFA'};
     border-radius: 10px;
