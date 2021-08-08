@@ -3,18 +3,36 @@ import React from "react";
 import {StyledLinksList, StyledLogoLink, Wrapper} from "./SidebarStyles";
 import {ButtonIcon} from "../../styles/GlobalComponents/ButtonIcon";
 import githubico from "/assets/githubico.svg"
+import linkedin from "/assets/linkedin.svg"
+import facebook from "/assets/facebook.svg"
+import {FlagsWrapper, StyledFlag} from "../Navbar/NavbarStyles";
+// import githubico from "../../public/githubico.svg";
+import pl from "../../public/pl.svg";
 
 export const Sidebar = () => (
     <Wrapper>
         <StyledLinksList>
             <li>
-                <ButtonIcon to="/notes" icon={githubico} activeclass="active"/>
+                <StyledFlag src={githubico}
+                            width={40}
+                            height={40}
+                />
+
+                {/*<ButtonIcon to="/notes" icon={githubico} activeclass="active"/>*/}
             </li>
             <li>
-                <ButtonIcon to="/notes" icon={githubico} activeclass="active"/>
+                <StyledFlag src={linkedin}
+                            width={40}
+                            height={40}
+                />
+
             </li>
             <li>
-                <ButtonIcon to="/notes" icon={githubico} activeclass="active"/>
+                <StyledFlag src={facebook}
+                            width={40}
+                            height={40}
+                />
+
             </li>
         </StyledLinksList>
     </Wrapper>

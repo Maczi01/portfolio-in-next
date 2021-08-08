@@ -5,7 +5,7 @@ export const Wrapper = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
+  height: 45px;
   margin: 0 auto;
   padding: 0;
   width: 100%;
@@ -18,7 +18,7 @@ export const FlagsWrapper = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 70px;
+  // height: 70px;
   width: 8vw;
   margin: 0 20px;
   padding: 0;
