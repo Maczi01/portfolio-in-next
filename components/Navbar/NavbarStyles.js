@@ -11,14 +11,15 @@ export const Wrapper = styled.nav`
   width: 100%;
   padding-right: 20px;
   background-color: ${({theme}) => theme.colors.background2};
-  z-index: 99;
-`;
+  z-index: 9;
+`
 
 export const FlagsWrapper = styled.nav`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   height: 70px;
+  width: 8vw;
   margin: 0 20px;
   padding: 0;
   //padding-right: 20px;

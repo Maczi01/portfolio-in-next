@@ -5,11 +5,11 @@ export const Menu = ({ open }) => {
         <StyledMenu open={open}>
             <a href="/">
                 <span role="img" aria-label="about us">💁🏻‍♂️</span>
-                About us
+                About me
             </a>
             <a href="/">
                 <span role="img" aria-label="price">💸</span>
-                Pricing
+                Projects
             </a>
             <a href="/">
                 <span role="img" aria-label="contact">📩</span>

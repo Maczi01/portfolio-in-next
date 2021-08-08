@@ -8,10 +8,10 @@ export default {
     colors: {
         primary1: "hsl(204,23.8%,95.9%)",
         text: '#000000',
-        background1: "#FFDF6C",
+        background1: "rgb(255, 216, 41)",
         accent1: "hsl(34.9,98.6%,72.9%)",
         button: "hsl(205.1,100%,36.1%)",
-        background2: '#707070',
+        background2: '#FFFFFF',
     },
     // Breakpoints for responsive design
     breakpoints: {

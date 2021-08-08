@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="91fac97a-c825-4fba-9d23-094a0d8e8f52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Menu/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Menu/MenuStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Menu/MenuStyles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Navbar/Burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/Burger.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Navbar/NavbarStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/NavbarStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Sidebar/SidebarStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/SidebarStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/default.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../github portfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/Menu" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,12 +44,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\components\Menu" />
+      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\components\Projects" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\components\Menu" />
       <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\assets" />
       <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\public" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\components\Projects" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -76,7 +80,7 @@
       <workItem from="1627825275514" duration="4051000" />
       <workItem from="1627846963144" duration="2712000" />
       <workItem from="1627855959865" duration="11813000" />
-      <workItem from="1628113464525" duration="14921000" />
+      <workItem from="1628113464525" duration="18079000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1627821870321</created>
@@ -225,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628367009088</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Added menu(first version)">
+      <created>1628418766630</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1628418766632</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +278,7 @@
     <MESSAGE value="Changes in projects page, added contact page with form" />
     <MESSAGE value="Added burger menu button (roughly)" />
     <MESSAGE value="Changes in burger button (styles)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in burger button (styles)" />
+    <MESSAGE value="Added menu(first version)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added menu(first version)" />
   </component>
 </project>
