@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fac97a-c825-4fba-9d23-094a0d8e8f52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bkg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Navbar/Burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/Burger.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Navbar/NavbarStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/NavbarStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/Sidebar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Sidebar/SidebarStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/SidebarStyles.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,7 +78,7 @@
       <workItem from="1627825275514" duration="4051000" />
       <workItem from="1627846963144" duration="2712000" />
       <workItem from="1627855959865" duration="11813000" />
-      <workItem from="1628113464525" duration="20820000" />
+      <workItem from="1628113464525" duration="21630000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1627821870321</created>
@@ -243,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628423163101</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Changes style properties in sidebar and navbar">
+      <created>1628426108429</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1628426108429</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +292,7 @@
     <MESSAGE value="Changes in burger button (styles)" />
     <MESSAGE value="Added menu(first version)" />
     <MESSAGE value="Changed main colors in theme (yellow and gray)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed main colors in theme (yellow and gray)" />
+    <MESSAGE value="Changes style properties in sidebar and navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes style properties in sidebar and navbar" />
   </component>
 </project>

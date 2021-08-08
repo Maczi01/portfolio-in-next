@@ -10,7 +10,8 @@ const StyledBurger = styled.button`
   justify-content: space-around;
   width: 40px;  
   height: 35px;
-  background: ${({open, theme}) => open ? theme.colors.text : theme.colors.background2};
+  // background: ${({open, theme}) => open ? theme.colors.text : theme.colors.background2};
+  background: transparent;
   transition: all 0.3s linear;
   border: none;
   cursor: pointer;

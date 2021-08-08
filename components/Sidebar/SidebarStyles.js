@@ -13,7 +13,7 @@ export const Wrapper = styled.nav`
       justify-content: center;
       align-items: center;
       //z-index: 99;
-      background-color: ${({theme}) => theme.colors.background2};
+      background-color: ${({theme}) => theme.colors.background1};
 `;
 
 export const StyledLinksList = styled.ul`
@@ -22,7 +22,6 @@ export const StyledLinksList = styled.ul`
     justify-content: space-around;
     align-items: center;
     margin: 0;
-    //padding: 50px 0;
     list-style: none;
     height: 40%;
 `;

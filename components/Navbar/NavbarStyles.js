@@ -10,7 +10,7 @@ export const Wrapper = styled.nav`
   padding: 0;
   width: 100%;
   padding-right: 20px;
-  background-color: ${({theme}) => theme.colors.background2};
+  background-color: ${({theme}) => theme.colors.background1};
   z-index: 9;
 `
 
@@ -24,7 +24,8 @@ export const FlagsWrapper = styled.nav`
   padding: 0;
   //padding-right: 20px;
   color: ${({theme}) => theme.colors.background1};
-  background-color: ${({theme}) => theme.colors.background2};
+  // background-color: ${({theme}) => theme.colors.background2};
+  background-color: transparent;
 `;
 
 export const StyledFlag = styled(Image)`
