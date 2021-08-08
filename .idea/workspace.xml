@@ -76,7 +76,7 @@
       <workItem from="1627825275514" duration="4051000" />
       <workItem from="1627846963144" duration="2712000" />
       <workItem from="1627855959865" duration="11813000" />
-      <workItem from="1628113464525" duration="11707000" />
+      <workItem from="1628113464525" duration="14921000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1627821870321</created>
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628365345126</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Changes in burger button (styles)">
+      <created>1628367009088</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1628367009088</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +266,7 @@
     <MESSAGE value="First version on projects card" />
     <MESSAGE value="Changes in projects page, added contact page with form" />
     <MESSAGE value="Added burger menu button (roughly)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added burger menu button (roughly)" />
+    <MESSAGE value="Changes in burger button (styles)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in burger button (styles)" />
   </component>
 </project>

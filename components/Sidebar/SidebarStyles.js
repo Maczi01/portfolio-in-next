@@ -12,7 +12,7 @@ export const Wrapper = styled.nav`
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
-      z-index: 99;
+      //z-index: 99;
       background-color: ${({theme}) => theme.colors.background2};
 `;
 

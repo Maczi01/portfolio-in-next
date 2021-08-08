@@ -4,13 +4,14 @@ import Image from 'next/image'
 export const Wrapper = styled.nav`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 70px;
   margin: 0 auto;
   padding: 0;
   width: 100%;
   padding-right: 20px;
   background-color: ${({theme}) => theme.colors.background2};
+  z-index: 99;
 `;
 
 export const FlagsWrapper = styled.nav`

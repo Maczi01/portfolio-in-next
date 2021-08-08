@@ -1,4 +1,4 @@
-import {StyledFlag, Wrapper} from "./NavbarStyles";
+import {FlagsWrapper, StyledFlag, Wrapper} from "./NavbarStyles";
 import React, {useRef, useState} from "react";
 import pl from '../../public/pl.svg'
 import uk from '../../public/uk.svg'
@@ -10,10 +10,13 @@ export const Navbar = () => {
     const node = useRef();
 
     return (
-        <Wrapper>
-            <div ref={node}>
-                <Burger open={open} setOpen={setOpen}/>
-            </div>
+<>
+    <Wrapper>
+        <div ref={node}>
+            <Burger open={open} setOpen={setOpen}/>
+
+        </div>
+        <FlagsWrapper>
             <StyledFlag src={uk}
                         width={40}
                         height={40}
@@ -22,7 +25,12 @@ export const Navbar = () => {
                         width={40}
                         height={40}
             />
-        </Wrapper>
+        </FlagsWrapper>
+
+    </Wrapper>
+    <Menu/>
+</>
+
     );
 }
 

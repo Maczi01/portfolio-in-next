@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const StyledBurger = styled.button`
-  //position: absolute;
-  //top: 0;
+  // position: absolute;
+  //margin-top: 18px;
   //left: 2rem;
   display: flex;
   flex-direction: column;
