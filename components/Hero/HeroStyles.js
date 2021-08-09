@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const PageWrapper = styled.div`
+ position: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -10;
+`
+
 export const HeroWrapper = styled.div`
      height: 100%;
      //width: 89vw; 

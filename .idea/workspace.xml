@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fac97a-c825-4fba-9d23-094a0d8e8f52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/bkg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/svg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar/Burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/Burger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar/NavbarStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/NavbarStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bkg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bkg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Hero/HeroStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero/HeroStyles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Sidebar/SidebarStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/SidebarStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/GlobalComponents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles/GlobalComponents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/default.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,14 +46,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\components\Menu" />
-      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\components\Projects" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\assets" />
       <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\components\Menu" />
       <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\components\Menu" />
+      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\components\Projects" />
     </key>
   </component>
   <component name="RunDashboard">

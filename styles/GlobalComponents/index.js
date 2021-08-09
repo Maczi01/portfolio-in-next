@@ -29,7 +29,8 @@ export const SectionTitle = styled.h2`
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
- 
+     color: ${({theme}) => theme.colors.text};
+
 `
 
 export const SectionText = styled.p`
@@ -38,8 +39,8 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
-  
+      color: ${({theme}) => theme.colors.text};
+
 `
 
 export const SectionDivider = styled.div`
@@ -60,7 +61,7 @@ export const Title = styled.div`
     padding: 10px;
     margin: 20px;
     font-weight: bold;
-    // color: ${({theme}) => theme.colors.text};
+    color: ${({theme}) => theme.colors.text};
 `;
 
 
@@ -71,6 +72,6 @@ export const Subtitle = styled.div`
     padding: 10px;
     margin: 20px;
     font-weight: bold;
-    // color: ${({theme}) => theme.colors.yellow};
+    color: ${({theme}) => theme.colors.text};
 `;
 
