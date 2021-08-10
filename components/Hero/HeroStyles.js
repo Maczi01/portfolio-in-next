@@ -11,6 +11,7 @@ export const PageWrapper = styled.div`
 export const HeroWrapper = styled.div`
      height: 100%;
      //width: 89vw; 
+     padding: 50px;
      min-height:100vh;       
      display: flex;
      flex-direction: column;

@@ -56,9 +56,9 @@ export const SectionDivider = styled.div`
 
 export const Title = styled.div`
     justify-content: flex-start;
-    font-size: 5rem; 
+    font-size: 8rem; 
     display: flex;
-    padding: 10px;
+    padding: 20px;
     margin: 20px;
     font-weight: bold;
     color: ${({theme}) => theme.colors.text};
@@ -67,7 +67,7 @@ export const Title = styled.div`
 
 export const Subtitle = styled.div`
     justify-content: flex-start;
-    font-size: 3rem;
+    font-size: 4rem;
     display: flex;
     padding: 10px;
     margin: 20px;

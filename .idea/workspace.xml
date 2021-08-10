@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fac97a-c825-4fba-9d23-094a0d8e8f52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/svg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bkg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bkg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/githubico.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/githubico.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/linkedin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero/Hero.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Hero/HeroStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero/HeroStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Sidebar/SidebarStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/SidebarStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/Sidebar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/GlobalComponents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles/GlobalComponents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/default.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -252,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628426108429</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Changed backgrounds">
+      <created>1628542964076</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1628542964079</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +279,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="Styled-componentes installed" />
     <MESSAGE value="Added react icons package" />
     <MESSAGE value="Added Sidebar, Navbar, Layout" />
@@ -297,6 +303,7 @@
     <MESSAGE value="Added menu(first version)" />
     <MESSAGE value="Changed main colors in theme (yellow and gray)" />
     <MESSAGE value="Changes style properties in sidebar and navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes style properties in sidebar and navbar" />
+    <MESSAGE value="Changed backgrounds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed backgrounds" />
   </component>
 </project>

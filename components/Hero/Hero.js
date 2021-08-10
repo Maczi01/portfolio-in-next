@@ -8,7 +8,7 @@ const Hero = () => (
         <Section>
             <HeroWrapper>
                 <Title>
-                    Hi! I am Mati.
+                    Hi! I'm Mati.
                 </Title>
                 <Subtitle>
                     Junior Fullstack Developer

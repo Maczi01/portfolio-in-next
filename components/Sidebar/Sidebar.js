@@ -18,14 +18,12 @@ export const Sidebar = () => (
                             height={40}
                 />
 
-                {/*<ButtonIcon to="/notes" icon={githubico} activeclass="active"/>*/}
             </li>
             <li>
-                <StyledFlag src={linkedin}
+                <StyledFlag src={facebook}
                             width={40}
                             height={40}
                 />
-
             </li>
             <li>
                 <StyledFlag src={facebook}
