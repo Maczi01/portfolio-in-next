@@ -5,16 +5,18 @@ import About from "../components/About/About";
 import ReactPageScroller from "react-page-scroller";
 import Projects from "../components/Projects/Projects";
 import Contact from "../components/Contact/Contact";
+import Theme from "../styles/Theme";
 
 export default function Home() {
     return (
         <>
+
             <Layout>
                 {/*<ReactPageScroller>*/}
-                    <Hero/>
-                    {/*<About/>*/}
-                    {/*<Projects/>*/}
-                    {/*<Contact/>*/}
+                <Hero/>
+                <About/>
+                {/*<Projects/>*/}
+                {/*<Contact/>*/}
                 {/*</ReactPageScroller>*/}
             </Layout>
         </>

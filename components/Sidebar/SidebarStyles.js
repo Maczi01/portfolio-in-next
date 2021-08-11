@@ -6,6 +6,7 @@ export const Wrapper = styled.nav`
       left: 0;
       top: 0;
       padding: 25px 0;
+      margin-left: 10px;
       width: 50px;
       height: 100vh;
       display: flex;

@@ -1,17 +1,22 @@
 import {Section, Subtitle, Title} from "../../styles/GlobalComponents";
 import React from "react";
-import {AboutTitle} from "./AboutStyles";
+import {AboutTitle, AboutSection} from "./AboutStyles";
+import {PageWrapper} from "../Hero/HeroStyles";
 
 const About = () => (
-    <Section>
+    <AboutSection>
         <AboutTitle>
-            O mnie
+            Cześć
         </AboutTitle>
         <Subtitle>
-            Mam na imię Mateusz, mieszkam w Irlandii. Studiowałem we Wrocławiu Inżynierię mechaniczną, którą ukończyłem
-            z tytułem magistra. Jestem wielkim fanem programowania, w szczególności tworzenia aplikacji internetowych.
-            Moje ulubione języki to Java i JavaScript. Najbardziej lubię tworzyć aplikacje z użyciem Reacta.
+            Mam na imię Mateusz i mieszkam w Irlandii. Studiowałem we Wrocławiu Inżynierię mechaniczną, którą ukończyłem
+            z tytułem magistra. Poza zamiłowaniem do mechaniki i konstrukcji, jestem wielkim fanem programowania, w
+            szczególności tworzenia aplikacji i stron  internetowych. Własnie w tym kierunku chce się rozwijać. Stawiam na ciągły
+            rozwój, poznawanie nowych technologii i tworzenie projektów.
         </Subtitle>
+        <AboutTitle color="yellow">
+            Szukam pracy jako Fullstack lub Frontend developer
+        </AboutTitle>
         <Title>Nauka</Title>
         <Subtitle>
             Programowanie interesowało mnie od zawsze. Tworzenie stron internetowych, proste programy w C++ czy różne
@@ -38,7 +43,7 @@ const About = () => (
             współpracy z ludźmi. Miałem okazję poznać dużo znanych osób i pracować dla znanych marek z wielu branż
             (Shell, Toyota, Dell, Volkswagen).
         </Subtitle>
-    </Section>
+    </AboutSection>
 );
 
 export default About;

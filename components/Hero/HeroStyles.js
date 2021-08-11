@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PageWrapper = styled.div`
- position: fixed;
+ //position: fixed;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
@@ -33,7 +33,28 @@ export const HeroLinksList = styled.div`
 export const HeroLink = styled.a`
     justify-content: flex-start;
     font-size: 3rem;
-    display: flex;
+    //display: flex;
     font-weight: bold;
     color: ${({theme}) => theme.colors.text};
+    
+     display: inline-block;
+        text-transform: uppercase;
+        padding: 4px 8px;
+
+       &:nth-of-type(2) {
+           &::before,
+           &::after {
+               content: '/';
+               color: ${({theme}) => theme.colors.background2};
+           }
+           &::before {
+               margin-right: 10px;
+           }
+
+           &::after {
+               margin-left: 10px;
+           }
+       }
 `;
+
+

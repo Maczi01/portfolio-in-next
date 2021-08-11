@@ -3,6 +3,7 @@ import {Section, Subtitle, Title} from "../../styles/GlobalComponents";
 import {HeroLink, HeroLinksList, HeroWrapper, PageWrapper} from "./HeroStyles";
 import Image from 'next/image'
 import svg from "../../assets/svg.svg"
+
 const Hero = () => (
     <PageWrapper>
         <Section>
@@ -14,8 +15,8 @@ const Hero = () => (
                     Junior Fullstack Developer
                 </Subtitle>
                 <HeroLinksList>
-                    <HeroLink to="/notes"> ABOUT </HeroLink> /
-                    <HeroLink to="/notes"> PROJECTS </HeroLink> /
+                    <HeroLink to="/notes"> ABOUT </HeroLink>
+                    <HeroLink to="/notes"> PROJECTS </HeroLink>
                     <HeroLink to="/notes"> CONTACT </HeroLink>
                 </HeroLinksList>
             </HeroWrapper>
@@ -26,7 +27,8 @@ const Hero = () => (
             layout="fill"
             objectFit="cover"
             quality={100}
-        />    </PageWrapper>
+        />
+    </PageWrapper>
 );
 
 export default Hero;

@@ -11,7 +11,7 @@ export default {
         background1: '#000000',
         accent1: "hsl(34.9,98.6%,72.9%)",
         button: "hsl(205.1,100%,36.1%)",
-        background2: '#000000',
+        background2: '#FFE410',
     },
     // Breakpoints for responsive design
     breakpoints: {

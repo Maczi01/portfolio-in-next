@@ -71,7 +71,7 @@ export const Subtitle = styled.div`
     display: flex;
     padding: 10px;
     margin: 20px;
-    font-weight: bold;
+    font-weight: normal;
     color: ${({theme}) => theme.colors.text};
 `;
 
