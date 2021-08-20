@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fac97a-c825-4fba-9d23-094a0d8e8f52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bkg2.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/linkedin.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/About/AboutStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About/AboutStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Hero/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero/Hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Hero/HeroStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero/HeroStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Sidebar/SidebarStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/SidebarStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Contact/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contact/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Contact/ContactFormStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contact/ContactFormStyles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/GlobalComponents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles/GlobalComponents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/default.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,16 +41,17 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\components\Menu" />
+      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\components\Projects" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\assets" />
       <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\components\Menu" />
       <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\public" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\components\Menu" />
-      <recent name="C:\Users\Admin\WebstormProjects\portfolio-in-next\components\Projects" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,7 +81,10 @@
       <workItem from="1627846963144" duration="2712000" />
       <workItem from="1627855959865" duration="11813000" />
       <workItem from="1628113464525" duration="21630000" />
-      <workItem from="1628632505924" duration="2850000" />
+      <workItem from="1628632505924" duration="7500000" />
+      <workItem from="1628805780854" duration="549000" />
+      <workItem from="1628955893469" duration="222000" />
+      <workItem from="1629493259794" duration="2664000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1627821870321</created>
@@ -271,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628627432040</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Changes in structure, color, description">
+      <created>1628711867736</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1628711867737</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +295,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Sidebar, Navbar, Layout" />
     <MESSAGE value="Refactor in elements (removed global themes)" />
     <MESSAGE value="Added global themes and changes in elements" />
     <MESSAGE value="Added elements to hero" />
@@ -316,6 +319,7 @@
     <MESSAGE value="Changed backgrounds" />
     <MESSAGE value="Chanes in background" />
     <MESSAGE value="Chenged styled in sidebar," />
-    <option name="LAST_COMMIT_MESSAGE" value="Chenged styled in sidebar," />
+    <MESSAGE value="Changes in structure, color, description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in structure, color, description" />
   </component>
 </project>

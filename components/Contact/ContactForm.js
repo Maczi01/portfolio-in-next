@@ -61,15 +61,15 @@ const ContactForm = () => {
     return (
         <FormWrapper>
             <InputsWrapper>
-                <StyledLabel htmlFor="from_name">
-                    <p data-scroll delay={.3} transparent>
-                        Name:
-                    </p>
-                </StyledLabel>
+                {/*<StyledLabel htmlFor="from_name">*/}
+                {/*    <p>*/}
+                {/*        Name:*/}
+                {/*    </p>*/}
+                {/*</StyledLabel>*/}
                 <StyledInput
                     type='text'
                     name='from_name'
-                    placeholder='Jak Ci na imie?'
+                    placeholder='Name'
                     value={toSend.from_name}
                     onChange={handleChange}
                     data-scroll
@@ -77,11 +77,11 @@ const ContactForm = () => {
             </InputsWrapper>
 
             <InputsWrapper>
-                <StyledLabel htmlFor="from_name">
-                    <p data-scroll delay={.3} transparent>
-                        Email:
-                    </p>
-                </StyledLabel>
+                {/*<StyledLabel htmlFor="from_name">*/}
+                {/*    <p>*/}
+                {/*        Email:*/}
+                {/*    </p>*/}
+                {/*</StyledLabel>*/}
                 <StyledInput
                     type='email'
                     name='to_name'
@@ -93,11 +93,11 @@ const ContactForm = () => {
             </InputsWrapper>
 
             <InputsWrapper>
-                <StyledLabel htmlFor="from_name">
-                    <p data-scroll delay={.3} transparent>
-                        Wiadomość:
-                    </p>
-                </StyledLabel>
+                {/*<StyledLabel htmlFor="from_name">*/}
+                {/*    <p>*/}
+                {/*        Wiadomość:*/}
+                {/*    </p>*/}
+                {/*</StyledLabel>*/}
                 <StyledTextarea
                     type='text'
                     name='message'
