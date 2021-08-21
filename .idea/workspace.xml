@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fac97a-c825-4fba-9d23-094a0d8e8f52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/bkg2.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Contact/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contact/ContactForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Contact/ContactFormStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contact/ContactFormStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +81,7 @@
       <workItem from="1628632505924" duration="7500000" />
       <workItem from="1628805780854" duration="549000" />
       <workItem from="1628955893469" duration="222000" />
-      <workItem from="1629493259794" duration="2664000" />
+      <workItem from="1629493259794" duration="6020000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1627821870321</created>

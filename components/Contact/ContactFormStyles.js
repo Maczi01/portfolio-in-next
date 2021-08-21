@@ -29,6 +29,9 @@ export const StyledTextarea = styled.textarea`
     :focus,:active {
       outline:none;
      }
+     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+     color: ${({theme}) => theme.colors.text};;
+    }
 `;
 
 export const FormWrapper = styled.form`
@@ -91,17 +94,29 @@ export const StyledInput = styled.input`
     :focus,:active {
       outline:none;
      }
+     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: ${({theme}) => theme.colors.text};;
+}
 `;
 
 export const StyledSubmit = styled.button`
-    color: ${({theme}) => theme.colors.gray};
-    background-color: ${({theme}) => theme.colors.yellow}; 
-    text-transform: uppercase;
+    color: ${({theme}) => theme.colors.text};
+    background-color: transparent; 
+    border: 2px solid ${({theme}) => theme.colors.background2};
+    //text-transform: uppercase;
+    border-radius: 5px;
     font-weight: 600;
     margin: 4px 0 24px;
     padding: 15px;
-    width: 100%;
     cursor: pointer;
-    border: 1px solid ${({theme}) => theme.colors.yellow};
-    transition: background-color .4s, opacity .4s, color .4s;
+    // border: 1px solid ${({theme}) => theme.colors.yellow};
+    //transition: background-color .4s, opacity .4s, color .4s;
+    width: 150px;
 `;
+
+export const SubmitWrapper = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  padding: 10px;
+`

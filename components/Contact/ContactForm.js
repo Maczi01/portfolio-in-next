@@ -1,6 +1,14 @@
 import React, {useState} from 'react';
 import {send} from "emailjs-com";
-import {FormWrapper, InputsWrapper, StyledInput, StyledLabel, StyledSubmit, StyledTextarea} from "./ContactFormStyles";
+import {
+    FormWrapper,
+    InputsWrapper,
+    StyledInput,
+    StyledLabel,
+    StyledSubmit,
+    StyledTextarea,
+    SubmitWrapper
+} from "./ContactFormStyles";
 
 const ContactForm = () => {
 
@@ -95,6 +103,23 @@ const ContactForm = () => {
             <InputsWrapper>
                 {/*<StyledLabel htmlFor="from_name">*/}
                 {/*    <p>*/}
+                {/*        Email:*/}
+                {/*    </p>*/}
+                {/*</StyledLabel>*/}
+                {/* TODO  obsłużyć temat wiadomości*/}
+                <StyledInput
+                    type='text'
+                    name='to_name'
+                    placeholder='Topic'
+                    value={toSend.to_name}
+                    onChange={handleChange}
+                    data-scroll
+                />
+            </InputsWrapper>
+
+            <InputsWrapper>
+                {/*<StyledLabel htmlFor="from_name">*/}
+                {/*    <p>*/}
                 {/*        Wiadomość:*/}
                 {/*    </p>*/}
                 {/*</StyledLabel>*/}
@@ -104,13 +129,17 @@ const ContactForm = () => {
                     placeholder='Wiadomość'
                     value={toSend.message}
                     onChange={handleChange}
+                    rows="5"
                 />
             </InputsWrapper>
+            <SubmitWrapper>
+
             <StyledSubmit type="submit"
                 // isSubmitted={isSubmitted}
                           value="Pobieram Twoje CV!">
-                Wyślij wiadomość
+                Wyślij
             </StyledSubmit>
+            </SubmitWrapper>
         </FormWrapper>
 
     );
