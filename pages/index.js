@@ -14,8 +14,8 @@ export default function Home() {
             <Layout>
                 {/*<ReactPageScroller>*/}
                 <Hero/>
-                {/*<About/>*/}
-                {/*<Projects/>*/}
+                <About/>
+                <Projects/>
                 <Contact/>
                 {/*</ReactPageScroller>*/}
             </Layout>

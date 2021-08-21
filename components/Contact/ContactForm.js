@@ -129,7 +129,7 @@ const ContactForm = () => {
                     placeholder='Wiadomość'
                     value={toSend.message}
                     onChange={handleChange}
-                    rows="5"
+                    rows="4"
                 />
             </InputsWrapper>
             <SubmitWrapper>

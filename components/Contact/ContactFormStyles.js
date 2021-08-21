@@ -95,7 +95,7 @@ export const StyledInput = styled.input`
       outline:none;
      }
      ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: ${({theme}) => theme.colors.text};;
+     color: ${({theme}) => theme.colors.text};;
 }
 `;
 
