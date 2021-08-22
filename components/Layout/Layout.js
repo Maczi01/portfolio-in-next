@@ -5,7 +5,6 @@ import {Navbar} from "../Navbar/Navbar";
 export const Layout = ({children}) => (
     <Container>
         <Content>
-            <Navbar/>
             <Sidebar/>
             {children}
         </Content>

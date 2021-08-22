@@ -7,10 +7,12 @@ export const Wrapper = styled.nav`
   justify-content: space-between;
   height: 45px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0;   
+  position: fixed;
   width: 100%;
   padding-right: 20px;
-  background-color: ${({theme}) => theme.colors.background1};
+  //background-color: ${({theme}) => theme.colors.background1};
+  background-color: transparent;
   z-index: 9;
 `
 
