@@ -32,19 +32,3 @@ const Hero = () => (
 );
 
 export default Hero;
-{/*<LeftSection>*/
-}
-{/*    <SectionTitle>*/
-}
-{/*        Hello*/
-}
-{/*    </SectionTitle>*/
-}
-{/*    <SectionText>*/
-}
-{/*        Lorem ipsum Lorem ipsum Lorem ipsum*/
-}
-{/*    </SectionText>*/
-}
-{/*</LeftSection>*/
-}

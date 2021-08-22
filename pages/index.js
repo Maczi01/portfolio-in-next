@@ -12,12 +12,12 @@ export default function Home() {
         <>
 
             <Layout>
-                {/*<ReactPageScroller>*/}
+                <ReactPageScroller>
                 <Hero/>
                 <About/>
                 <Projects/>
                 <Contact/>
-                {/*</ReactPageScroller>*/}
+                </ReactPageScroller>
             </Layout>
         </>
     )

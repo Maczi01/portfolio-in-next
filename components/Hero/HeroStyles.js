@@ -6,6 +6,7 @@ export const PageWrapper = styled.div`
   width: 100vw;
   overflow: hidden;
   z-index: -10;
+  position: relative;
 `
 
 export const HeroWrapper = styled.div`
@@ -56,5 +57,6 @@ export const HeroLink = styled.a`
            }
        }
 `;
+
 
 

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image from "next/dist/client/image";
 
 export const AboutTitle = styled.div`
     justify-content: flex-start;
@@ -28,4 +29,11 @@ export const AboutSection = styled.section`
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
   background-color: ${({theme}) => theme.colors.background} ;
+`;
+
+export const ImageWrapper = styled(Image)`
+   position: absolute;
+  top:0;
+  z-index: -99;
 `
+

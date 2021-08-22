@@ -13,8 +13,9 @@ export const Wrapper = styled.nav`
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      z-index: -99;
-      background-color: ${({theme}) => theme.colors.background1};
+      z-index: 999;
+      //background-color: ${({theme}) => theme.colors.background1};
+      background-color: transparent;
 `;
 
 export const StyledLinksList = styled.ul`
