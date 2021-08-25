@@ -1,6 +1,15 @@
 import {Section, Subtitle, Title} from "../../styles/GlobalComponents";
 import React from "react";
-import {AboutTitle, AboutSection, ImageWrapper} from "./AboutStyles";
+import {
+    AboutTitle,
+    AboutSection,
+    ImageWrapper,
+    SkillsWrapper,
+    SkillsTable,
+    SkillsTitle,
+    SkillsList,
+    SkillsItem
+} from "./AboutStyles";
 import {PageWrapper} from "../Hero/HeroStyles";
 import bkg2 from "../../assets/bkg2.svg";
 import Image from "next/dist/client/image";
@@ -21,9 +30,45 @@ const About = () => (
                 Stawiam na ciągły
                 rozwój, poznawanie nowych technologii i tworzenie projektów.
             </Subtitle>
-            <AboutTitle color="yellow">
-                Szukam pracy jako Fullstack lub Frontend developer
-            </AboutTitle>
+            {/*<AboutTitle color="yellow">*/}
+            {/*    Szukam pracy jako Fullstack lub Frontend developer*/}
+            {/*</AboutTitle>*/}
+
+            <SkillsWrapper>
+                <SkillsTable>
+                    <SkillsTitle>
+                        Working knowledge
+                    </SkillsTitle>
+                    <SkillsList>
+                        <SkillsItem>Rest</SkillsItem>
+                        <SkillsItem>GraphQL</SkillsItem>
+                        <SkillsItem>React</SkillsItem>
+                        <SkillsItem>Next</SkillsItem>
+                    </SkillsList>
+
+                </SkillsTable>
+                <SkillsTable>
+                    Know something about
+                    <SkillsList>
+                        <SkillsItem>Rest</SkillsItem>
+                        <SkillsItem>GraphQL</SkillsItem>
+                        <SkillsItem>React</SkillsItem>
+                        <SkillsItem>Next</SkillsItem>
+                    </SkillsList>
+
+                </SkillsTable>
+
+                <SkillsTable>
+                    Want to learn
+                    <SkillsList>
+                        <SkillsItem>Rest</SkillsItem>
+                        <SkillsItem>GraphQL</SkillsItem>
+                        <SkillsItem>React</SkillsItem>
+                        <SkillsItem>Next</SkillsItem>
+                    </SkillsList>
+
+                </SkillsTable>
+            </SkillsWrapper>
 
 
         </AboutSection>
@@ -40,29 +85,55 @@ const About = () => (
 
 export default About;
 
-{/*<Title>Nauka</Title>*/}
-{/*<Subtitle>*/}
-{/*    Programowanie interesowało mnie od zawsze. Tworzenie stron internetowych, proste programy w C++ czy różne*/}
-{/*    programy używane w grach. 3 lata temu na ponownie podszedłem do nauki Javy, programowania obiektowego, baz*/}
-{/*    danych, co pozwoliło mi nauczyć się Springa. Następnie chcąc zwiększać swoją wiedzę, uczyłem się*/}
-{/*    Javascriptu.*/}
-{/*    Po dość długiej nauce postanowiłem przejść do Reacta, którego bardzo lubię.*/}
-{/*</Subtitle>*/}
-{/*<Title>Charakter</Title>*/}
-{/*<Subtitle>*/}
-{/*    Jestem spokojną i miłą osobą. Lubię rozmawiać z ludźmi, współpracować i znajdować rozwiązania. Jestem*/}
-{/*    ambitny, stawiam sobie cele i realizuję je. Nie lubię stać w miejscu. Nie boję się zmian.*/}
-{/*</Subtitle>*/}
-{/*<Title>Doświadczenie</Title>*/}
-{/*<Subtitle>*/}
-{/*    Mam doświadczenie w wielu branżach, największe w swoim wyuczonym zawodzie. Jako Inżynier mechanik w*/}
-{/*    specjalności Konstrukcja i eksploatacja pracowałem w branży samochodowej i branży maszyn ciężkich.*/}
-{/*    Projektowałem i konstruowałem elementy maszyn dla lini produkcyjnych. Sporządzałem setki rysunków*/}
-{/*    technicznych elementów z wykorzystaniem programów CAD. Praca ta wymagała dokładności, analitycznego myślenia*/}
-{/*    i umiejętności rozwiązywania problemów.*/}
-{/*    Przez ponad 5 lat pracowałem dorywczo w w agencji organizacji imprez, gdzie zajmowałem się przygotowywaniem*/}
-{/*    imprez, koncertów, targów i konferencji od strony technicznej - elektryka, montaż, obsługa komputerów i*/}
-{/*    innego sprzętu elektronicznego. W tej pracy musiałem korzystać z dobrej organizacji, kreatywności i dobrej*/}
-{/*    współpracy z ludźmi. Miałem okazję poznać dużo znanych osób i pracować dla znanych marek z wielu branż*/}
-{/*    (Shell, Toyota, Dell, Volkswagen).*/}
-{/*</Subtitle>*/}
+{/*<Title>Nauka</Title>*/
+}
+{/*<Subtitle>*/
+}
+{/*    Programowanie interesowało mnie od zawsze. Tworzenie stron internetowych, proste programy w C++ czy różne*/
+}
+{/*    programy używane w grach. 3 lata temu na ponownie podszedłem do nauki Javy, programowania obiektowego, baz*/
+}
+{/*    danych, co pozwoliło mi nauczyć się Springa. Następnie chcąc zwiększać swoją wiedzę, uczyłem się*/
+}
+{/*    Javascriptu.*/
+}
+{/*    Po dość długiej nauce postanowiłem przejść do Reacta, którego bardzo lubię.*/
+}
+{/*</Subtitle>*/
+}
+{/*<Title>Charakter</Title>*/
+}
+{/*<Subtitle>*/
+}
+{/*    Jestem spokojną i miłą osobą. Lubię rozmawiać z ludźmi, współpracować i znajdować rozwiązania. Jestem*/
+}
+{/*    ambitny, stawiam sobie cele i realizuję je. Nie lubię stać w miejscu. Nie boję się zmian.*/
+}
+{/*</Subtitle>*/
+}
+{/*<Title>Doświadczenie</Title>*/
+}
+{/*<Subtitle>*/
+}
+{/*    Mam doświadczenie w wielu branżach, największe w swoim wyuczonym zawodzie. Jako Inżynier mechanik w*/
+}
+{/*    specjalności Konstrukcja i eksploatacja pracowałem w branży samochodowej i branży maszyn ciężkich.*/
+}
+{/*    Projektowałem i konstruowałem elementy maszyn dla lini produkcyjnych. Sporządzałem setki rysunków*/
+}
+{/*    technicznych elementów z wykorzystaniem programów CAD. Praca ta wymagała dokładności, analitycznego myślenia*/
+}
+{/*    i umiejętności rozwiązywania problemów.*/
+}
+{/*    Przez ponad 5 lat pracowałem dorywczo w w agencji organizacji imprez, gdzie zajmowałem się przygotowywaniem*/
+}
+{/*    imprez, koncertów, targów i konferencji od strony technicznej - elektryka, montaż, obsługa komputerów i*/
+}
+{/*    innego sprzętu elektronicznego. W tej pracy musiałem korzystać z dobrej organizacji, kreatywności i dobrej*/
+}
+{/*    współpracy z ludźmi. Miałem okazję poznać dużo znanych osób i pracować dla znanych marek z wielu branż*/
+}
+{/*    (Shell, Toyota, Dell, Volkswagen).*/
+}
+{/*</Subtitle>*/
+}

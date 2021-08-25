@@ -37,3 +37,35 @@ export const ImageWrapper = styled(Image)`
   z-index: -99;
 `
 
+export const SkillsWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin: 0 30px;
+  justify-content: space-between;
+`
+
+export const SkillsTable = styled.div`
+    display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 3px solid ${({theme}) => theme.colors.background2};
+  margin: 10px
+`
+
+
+export const SkillsList = styled.ul`
+
+`
+
+export const SkillsItem = styled.li`
+    
+    ::before {
+    content: "•"; 
+    color: ${({theme}) => theme.colors.background2};
+    margin-left: -1em}
+`
+
+export const SkillsTitle = styled.p`
+
+`
+
