@@ -41,11 +41,11 @@ export const SkillsWrapper = styled.div`
   display: flex;
   flex-direction: row;
   margin: 0 30px;
-  justify-content: space-between;
+  justify-content: space-around;
 `
 
 export const SkillsTable = styled.div`
-    display: flex;
+  display: flex;
   flex-direction: column;
   border-radius: 10px;
   border: 3px solid ${({theme}) => theme.colors.background2};
@@ -66,6 +66,10 @@ export const SkillsItem = styled.li`
 `
 
 export const SkillsTitle = styled.p`
-
+  justify-content: flex-start;
+    font-size: 4rem;
+    display: flex;
+    padding: 10px;
+    margin: 20px
 `
 

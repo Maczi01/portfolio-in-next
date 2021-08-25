@@ -37,34 +37,11 @@ const About = () => (
             <SkillsWrapper>
                 <SkillsTable>
                     <SkillsTitle>
-                        Working knowledge
+                        Skills
                     </SkillsTitle>
                     <SkillsList>
-                        <SkillsItem>Rest</SkillsItem>
-                        <SkillsItem>GraphQL</SkillsItem>
-                        <SkillsItem>React</SkillsItem>
-                        <SkillsItem>Next</SkillsItem>
-                    </SkillsList>
 
-                </SkillsTable>
-                <SkillsTable>
-                    Know something about
-                    <SkillsList>
-                        <SkillsItem>Rest</SkillsItem>
-                        <SkillsItem>GraphQL</SkillsItem>
-                        <SkillsItem>React</SkillsItem>
-                        <SkillsItem>Next</SkillsItem>
-                    </SkillsList>
 
-                </SkillsTable>
-
-                <SkillsTable>
-                    Want to learn
-                    <SkillsList>
-                        <SkillsItem>Rest</SkillsItem>
-                        <SkillsItem>GraphQL</SkillsItem>
-                        <SkillsItem>React</SkillsItem>
-                        <SkillsItem>Next</SkillsItem>
                     </SkillsList>
 
                 </SkillsTable>
