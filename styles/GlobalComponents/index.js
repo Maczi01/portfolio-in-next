@@ -67,7 +67,7 @@ export const Title = styled.div`
 
 export const Subtitle = styled.div`
     justify-content: flex-start;
-    font-size: 4rem;
+    font-size: 3rem;
     display: flex;
     padding: 10px;
     margin: 20px;

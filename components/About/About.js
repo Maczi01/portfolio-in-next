@@ -8,46 +8,86 @@ import {
     SkillsTable,
     SkillsTitle,
     SkillsList,
-    SkillsItem
+    SkillsItem, AboutWrapper
 } from "./AboutStyles";
 import {PageWrapper} from "../Hero/HeroStyles";
 import bkg2 from "../../assets/bkg2.svg";
 import Image from "next/dist/client/image";
 import vectorpaint from "../../assets/vectorpaint.svg";
+import {
+    ReactLogo,
+    Bootstrap
+} from '@styled-icons/boxicons-logos';
+
+import {
+    Css3,
+    Javascript,
+    StyledComponents,
+    Sass,
+    Wordpress,
+    Figma,
+    Html5,
+    Woo
+} from '@styled-icons/simple-icons';
+import {SkillsSvgWrapper} from "./SkillsSvgWrapper";
+
 
 const About = () => (
     <PageWrapper>
 
         <AboutSection>
+
             <AboutTitle>
                 Cześć
             </AboutTitle>
-            <Subtitle>
-                Mam na imię Mateusz i mieszkam w Irlandii. Studiowałem we Wrocławiu Inżynierię mechaniczną, którą
-                ukończyłem
-                z tytułem magistra. Poza zamiłowaniem do mechaniki i konstrukcji, jestem wielkim fanem programowania, w
-                szczególności tworzenia aplikacji i stron internetowych. Własnie w tym kierunku chce się rozwijać.
-                Stawiam na ciągły
-                rozwój, poznawanie nowych technologii i tworzenie projektów.
-            </Subtitle>
-            {/*<AboutTitle color="yellow">*/}
-            {/*    Szukam pracy jako Fullstack lub Frontend developer*/}
-            {/*</AboutTitle>*/}
 
-            <SkillsWrapper>
-                <SkillsTable>
-                    <SkillsTitle>
-                        Skills
-                    </SkillsTitle>
-                    <SkillsList>
+            <AboutWrapper>
 
 
-                    </SkillsList>
+                <Subtitle>
+                    Mam na imię Mateusz i mieszkam w Irlandii. Studiowałem we Wrocławiu Inżynierię mechaniczną, którą
+                    ukończyłem
+                    z tytułem magistra. Poza zamiłowaniem do mechaniki i konstrukcji, jestem wielkim fanem
+                    programowania, w
+                    szczególności tworzenia aplikacji i stron internetowych. Własnie w tym kierunku chce się rozwijać.
+                    Stawiam na ciągły
+                    rozwój, poznawanie nowych technologii i tworzenie projektów.
+                </Subtitle>
+                {/*<AboutTitle color="yellow">*/}
+                {/*    Szukam pracy jako Fullstack lub Frontend developer*/}
+                {/*</AboutTitle>*/}
 
-                </SkillsTable>
-            </SkillsWrapper>
+                <SkillsWrapper>
+                    <SkillsTable>
+                        <SkillsTitle>
+                            Skills
+                        </SkillsTitle>
+                        <SkillsList>
+                            <SkillsSvgWrapper>
+                                <Html5/>
+                            </SkillsSvgWrapper>
+                            <SkillsSvgWrapper>
+                                <Css3/>
+                            </SkillsSvgWrapper>
+                            <SkillsSvgWrapper>
+                                <Javascript/>
+                            </SkillsSvgWrapper>
+                            <SkillsSvgWrapper>
+                                <Sass/>
+                            </SkillsSvgWrapper>
+                            <SkillsSvgWrapper>
+                                <Bootstrap/>
+                            </SkillsSvgWrapper>
+                            <SkillsSvgWrapper>
+                                <ReactLogo/>
+                            </SkillsSvgWrapper>
 
+                        </SkillsList>
 
+                    </SkillsTable>
+                </SkillsWrapper>
+
+            </AboutWrapper>
         </AboutSection>
         <ImageWrapper
             alt="Mountains"

@@ -18,7 +18,8 @@ export const AboutTitle = styled.div`
 
 export const AboutSection = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex"};
-  flex-direction: ${(props) => props.row ? "row" : "column"};
+  // flex-direction: ${(props) => props.row ? "row" : "column"};
+  flex-direction: column;
   // padding: ${(props) => props.nopadding ? "0" : "32px 48px 0"} ;
   padding: 32px 48px;
   margin: 0 auto;
@@ -31,6 +32,12 @@ export const AboutSection = styled.section`
   background-color: ${({theme}) => theme.colors.background} ;
 `;
 
+export const AboutWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+`
+
 export const ImageWrapper = styled(Image)`
    position: absolute;
   top:0;
@@ -41,7 +48,8 @@ export const SkillsWrapper = styled.div`
   display: flex;
   flex-direction: row;
   margin: 0 30px;
-  justify-content: space-around;
+  padding: 30px;
+  //justify-content: space-around;
 `
 
 export const SkillsTable = styled.div`
@@ -49,7 +57,9 @@ export const SkillsTable = styled.div`
   flex-direction: column;
   border-radius: 10px;
   border: 3px solid ${({theme}) => theme.colors.background2};
-  margin: 10px
+  margin: 10px;
+  width: 550px;
+
 `
 
 
@@ -66,7 +76,8 @@ export const SkillsItem = styled.li`
 `
 
 export const SkillsTitle = styled.p`
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
     font-size: 4rem;
     display: flex;
     padding: 10px;
