@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91fac97a-c825-4fba-9d23-094a0d8e8f52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/About/SkillsSvgWrapper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/About/AboutStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About/AboutStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/GlobalComponents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles/GlobalComponents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/About/SkillsSvgWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About/SkillsSvgWrapper.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +81,7 @@
       <workItem from="1628805780854" duration="549000" />
       <workItem from="1628955893469" duration="222000" />
       <workItem from="1629493259794" duration="13240000" />
+      <workItem from="1630176666288" duration="2557000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1627821870321</created>
@@ -297,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629931246584</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Change skills table - from text to icons.">
+      <created>1630007284986</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1630007284988</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +320,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added About page" />
     <MESSAGE value="Added _document to avoid reload every time" />
     <MESSAGE value="Added projects section" />
     <MESSAGE value="Projects cards added(work version)" />
@@ -342,6 +344,7 @@
     <MESSAGE value="Changed background in About section" />
     <MESSAGE value="Changes in tables (skills)" />
     <MESSAGE value="Changes in skills table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in skills table" />
+    <MESSAGE value="Change skills table - from text to icons." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change skills table - from text to icons." />
   </component>
 </project>
