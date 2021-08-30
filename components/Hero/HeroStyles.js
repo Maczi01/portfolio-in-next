@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const PageWrapper = styled.div`
- //position: fixed;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
