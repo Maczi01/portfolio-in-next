@@ -33,7 +33,6 @@ export const HeroLinksList = styled.div`
 export const HeroLink = styled.a`
     justify-content: flex-start;
     font-size: 3rem;
-    //display: flex;
     font-weight: bold;
     color: ${({theme}) => theme.colors.text};
     
