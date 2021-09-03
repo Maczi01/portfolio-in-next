@@ -58,13 +58,14 @@ export const SkillsTable = styled.div`
   border-radius: 10px;
   border: 3px solid ${({theme}) => theme.colors.background2};
   margin: 10px;
-  width: 550px;
-
+  width: 500px;
 `
 
 
 export const SkillsList = styled.div`
-   
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
 `
 
 export const SkillsItem = styled.li`

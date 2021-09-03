@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="91fac97a-c825-4fba-9d23-094a0d8e8f52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/About/AboutStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About/AboutStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Hero/HeroStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero/HeroStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/About/SkillsSvgWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About/SkillsSvgWrapper.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +85,7 @@
       <workItem from="1629493259794" duration="13240000" />
       <workItem from="1630176666288" duration="4566000" />
       <workItem from="1630441580967" duration="1206000" />
-      <workItem from="1630620828093" duration="858000" />
+      <workItem from="1630620828093" duration="2625000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1627821870321</created>
@@ -317,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630444266431</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Changed ul to normal element">
+      <created>1630699286163</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1630699286172</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,8 +345,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Projects cards added(work version)" />
-    <MESSAGE value="Modify Project list and add contact Page" />
     <MESSAGE value="Added Contact component" />
     <MESSAGE value="Changed title in projects page" />
     <MESSAGE value="Changed grid and remove divider" />
@@ -362,6 +368,8 @@
     <MESSAGE value="Change skills table - from text to icons." />
     <MESSAGE value="Removed some css properties" />
     <MESSAGE value="Change flex to block" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change flex to block" />
+    <MESSAGE value="Changed ul to normal element" />
+    <MESSAGE value="Changes in list of skills" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in list of skills" />
   </component>
 </project>

@@ -81,6 +81,18 @@ const About = () => (
                             <SkillsSvgWrapper>
                                 <ReactLogo/>
                             </SkillsSvgWrapper>
+                            <SkillsSvgWrapper>
+                                <Javascript/>
+                            </SkillsSvgWrapper>
+                            <SkillsSvgWrapper>
+                                <Sass/>
+                            </SkillsSvgWrapper>
+                            <SkillsSvgWrapper>
+                                <Bootstrap/>
+                            </SkillsSvgWrapper>
+                            <SkillsSvgWrapper>
+                                <ReactLogo/>
+                            </SkillsSvgWrapper>
 
                         </SkillsList>
 
