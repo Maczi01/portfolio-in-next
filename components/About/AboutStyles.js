@@ -63,8 +63,8 @@ export const SkillsTable = styled.div`
 `
 
 
-export const SkillsList = styled.ul`
-
+export const SkillsList = styled.div`
+   
 `
 
 export const SkillsItem = styled.li`

@@ -6,7 +6,7 @@ export const PageWrapper = styled.div`
   overflow: hidden;
   z-index: -10;
   position: relative;
-`
+`;
 
 export const HeroWrapper = styled.div`
      height: 100%;
