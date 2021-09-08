@@ -32,86 +32,88 @@ import {
 import {SkillsSvgWrapper} from "./SkillsSvgWrapper";
 
 
-const About = () => (
-    <PageWrapper>
+const About = () => {
 
-        <AboutSection>
+    const skills = [
+        {name: "html", icon: <Html5/>, color: "#e34c26"},
+        {name: "css3", icon: <Css3/>, color: "#2965f1"},
+        {name: "javascript", icon: <Javascript/>, color: "#f0db4f"},
+        {name: "sass", icon: <Sass/>, color: "#c69"},
+        {name: "bootstrap", icon: <Bootstrap/>, color: "#563d7c"},
+        // {name: "rwd", icon: <PhoneDesktop/>, color: "#e75a7c"},
+        {name: "react", icon: <ReactLogo/>, color: "#61dbfb"},
+        {name: "styled components", icon: <StyledComponents/>, color: "#fff"},
+        {name: "wordpress", icon: <Wordpress/>, color: "#21759b"},
+        {name: "Woocommerce", icon: <Woo/>, color: "#764abc"},
+        // {name: "git", icon: <Github/>, color: "#fff"},
+        {name: "figma", icon: <Figma/>, color: "#dac9ba"}
+    ];
 
-            <AboutTitle>
-                Cześć
-            </AboutTitle>
 
-            <AboutWrapper>
+    return (
 
 
-                <Subtitle>
-                    Mam na imię Mateusz i mieszkam w Irlandii. Studiowałem we Wrocławiu Inżynierię mechaniczną, którą
-                    ukończyłem
-                    z tytułem magistra. Poza zamiłowaniem do mechaniki i konstrukcji, jestem wielkim fanem
-                    programowania, w
-                    szczególności tworzenia aplikacji i stron internetowych. Własnie w tym kierunku chce się rozwijać.
-                    Stawiam na ciągły
-                    rozwój, poznawanie nowych technologii i tworzenie projektów.
-                </Subtitle>
-                {/*<AboutTitle color="yellow">*/}
-                {/*    Szukam pracy jako Fullstack lub Frontend developer*/}
-                {/*</AboutTitle>*/}
+        <PageWrapper>
 
-                <SkillsWrapper>
-                    <SkillsTable>
-                        <SkillsTitle>
-                            Skills
-                        </SkillsTitle>
-                        <SkillsList>
-                            <SkillsSvgWrapper>
-                                <Html5/>
-                            </SkillsSvgWrapper>
-                            <SkillsSvgWrapper>
-                                <Css3/>
-                            </SkillsSvgWrapper>
-                            <SkillsSvgWrapper>
-                                <Javascript/>
-                            </SkillsSvgWrapper>
-                            <SkillsSvgWrapper>
-                                <Sass/>
-                            </SkillsSvgWrapper>
-                            <SkillsSvgWrapper>
-                                <Bootstrap/>
-                            </SkillsSvgWrapper>
-                            <SkillsSvgWrapper>
-                                <ReactLogo/>
-                            </SkillsSvgWrapper>
-                            <SkillsSvgWrapper>
-                                <Javascript/>
-                            </SkillsSvgWrapper>
-                            <SkillsSvgWrapper>
-                                <Sass/>
-                            </SkillsSvgWrapper>
-                            <SkillsSvgWrapper>
-                                <Bootstrap/>
-                            </SkillsSvgWrapper>
-                            <SkillsSvgWrapper>
-                                <ReactLogo/>
-                            </SkillsSvgWrapper>
+            <AboutSection>
 
-                        </SkillsList>
+                <AboutTitle>
+                    Cześć
+                </AboutTitle>
 
-                    </SkillsTable>
-                </SkillsWrapper>
+                <AboutWrapper>
 
-            </AboutWrapper>
-        </AboutSection>
-        <ImageWrapper
-            alt="Mountains"
-            src={vectorpaint}
-            layout="fill"
-            objectFit="cover"
-            quality={100}
-        />
 
-    </PageWrapper>
-);
+                    <Subtitle>
+                        Mam na imię Mateusz i mieszkam w Irlandii. Studiowałem we Wrocławiu Inżynierię mechaniczną,
+                        którą
+                        ukończyłem
+                        z tytułem magistra. Poza zamiłowaniem do mechaniki i konstrukcji, jestem wielkim fanem
+                        programowania, w
+                        szczególności tworzenia aplikacji i stron internetowych. Własnie w tym kierunku chce się
+                        rozwijać.
+                        Stawiam na ciągły
+                        rozwój, poznawanie nowych technologii i tworzenie projektów.
+                    </Subtitle>
+                    {/*<AboutTitle color="yellow">*/}
+                    {/*    Szukam pracy jako Fullstack lub Frontend developer*/}
+                    {/*</AboutTitle>*/}
 
+                    <SkillsWrapper>
+                        <SkillsTable>
+                            <SkillsTitle>
+                                Skills
+                            </SkillsTitle>
+
+                            {/*<SkillsList>*/}
+                            {/*    {*/}
+                            {/*        skills.map((skill, index) =>*/}
+                            {/*            <SkillsSvgWrapper color={skill.color}>*/}
+                            {/*                {*/}
+                            {/*                    skill.icon*/}
+                            {/*                }*/}
+                            {/*            </SkillsSvgWrapper>*/}
+                            {/*        )*/}
+                            {/*    }*/}
+                            {/*</SkillsList>*/}
+
+
+                        </SkillsTable>
+                    </SkillsWrapper>
+
+                </AboutWrapper>
+            </AboutSection>
+            <ImageWrapper
+                alt="Mountains"
+                src={vectorpaint}
+                layout="fill"
+                objectFit="cover"
+                quality={100}
+            />
+
+        </PageWrapper>
+    );
+}
 export default About;
 
 {/*<Title>Nauka</Title>*/

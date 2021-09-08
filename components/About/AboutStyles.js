@@ -69,7 +69,6 @@ export const SkillsList = styled.div`
 `
 
 export const SkillsItem = styled.li`
-    
     ::before {
     content: "•"; 
     color: ${({theme}) => theme.colors.background2};
