@@ -12,16 +12,14 @@ import {Content} from "../components/Layout/LayoutStyles";
 export default function Home() {
     return (
         <>
-
             <Layout>
                 <Navbar/>
-
-                {/*<ReactPageScroller>*/}
-                <Hero/>
-                <About/>
-                <Projects/>
-                <Contact/>
-                {/*</ReactPageScroller>*/}
+                <ReactPageScroller>
+                    <Hero/>
+                    <About/>
+                    <Projects/>
+                    <Contact/>
+                </ReactPageScroller>
             </Layout>
         </>
     )

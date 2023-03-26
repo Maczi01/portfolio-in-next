@@ -103,13 +103,13 @@ const About = () => {
 
                 </AboutWrapper>
             </AboutSection>
-            <ImageWrapper
-                alt="Mountains"
-                src={vectorpaint}
-                layout="fill"
-                objectFit="cover"
-                quality={100}
-            />
+            {/*<ImageWrapper*/}
+            {/*    alt="Mountains"*/}
+            {/*    src={vectorpaint}*/}
+            {/*    layout="fill"*/}
+            {/*    objectFit="cover"*/}
+            {/*    quality={100}*/}
+            {/*/>*/}
 
         </PageWrapper>
     );

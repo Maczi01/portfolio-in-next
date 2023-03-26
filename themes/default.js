@@ -1,8 +1,8 @@
 export default {
     // Temp fonts
     fonts: {
-        title: "Space Grotesk, sans-serif",
-        main: "Space Grotesk, sans-serif"
+        title: "NeueMontreal-Bold, Helvetica, Trebuchet;",
+        main: "NeueMontreal-Bold, Helvetica, Trebuchet;"
     },
     // Colors for layout
     colors: {

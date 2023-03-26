@@ -1,4 +1,4 @@
-import {StyledMenu} from "./MenuStyles";
+    import {StyledMenu} from "./MenuStyles";
 
 export const Menu = ({ open }) => {
     return (

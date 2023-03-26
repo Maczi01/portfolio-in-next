@@ -21,13 +21,13 @@ const Hero = () => (
                 </HeroLinksList>
             </HeroWrapper>
         </Section>
-        <Image
-            alt="Mountains"
-            src={svg}
-            layout="fill"
-            objectFit="cover"
-            quality={100}
-        />
+        {/*<Image*/}
+        {/*    alt="Mountains"*/}
+        {/*    src={svg}*/}
+        {/*    layout="fill"*/}
+        {/*    objectFit="cover"*/}
+        {/*    quality={100}*/}
+        {/*/>*/}
     </PageWrapper>
 );
 
